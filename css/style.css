@@ -19,6 +19,7 @@ p{
   margin: 0;
 }
 /* header */
+/* header top */
 .header_top{
   height: 70px;
   line-height: 70px;
@@ -54,9 +55,8 @@ p{
   color: #006aff;
   margin-left: 50%;
 }
-
+/* header bottom */
 .header_bottom{
-  height: 800px;
   background-image: url('../img/bg-hero.svg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ p{
 }
 .get_started{
   background-color: #fff;
-  margin-top: 60px;
+  margin: 60px 0;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -117,7 +117,7 @@ p{
   margin-top: 20px;
 }
 p .terms{
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: underline;
 }
 /* /header */
@@ -133,6 +133,10 @@ section{
 .business-images{
   text-align: center;
   margin: 30px 0;
+}
+.business-images img{
+  height: 50px;
+  max-width: 100%;
 }
 .business-images img:not(:last-child){
   margin-right: 20px;
@@ -151,20 +155,22 @@ section{
   color: #0069ff;
 }
 
-
-
-@@media screen and (max-width: 992px) {
-  .business-img img{
-    width: 50%;
-    text-align: center;
+/* Resposive */
+@media screen and (max-width: 992px) {
+  .description_hero h1{
+    font-size: 40px;
   }
+  .business-images img{
+    width: 50%;
+  }
+
 }
-
-
-
-@@media screen and (max-width: 768px) {
-  .business-img img{
-    width: 50%;
-    text-align: center;
+@media screen and (max-width: 768px) {
+  .description_hero h1{
+    font-size: 30px;
   }
+  .business-images img{
+    width: 50%;
+  }
+
 }
