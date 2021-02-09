@@ -1,0 +1,44 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+ul li{
+  margin-right: 10px;
+}
+ul li a{
+  color: #006aff;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: #006aff;
+}
+/* header */
+.header_top{
+  height: 70px;
+  line-height: 70px;
+}
+.logo img{
+  height: 30px;
+}
+.main_nav{
+  display: inline-block;
+  text-align: center;  
+}
+.secondary_nav{
+  display: inline-block;
+  text-align: right;
+}
+.main_nav a,
+.secondary_nav a{
+  font-size: 14px;
+}
+.btn_signup{
+  border: 1px solid #006aff;
+  color: #006aff;
+}
+.btn_signup:hover{
+  color: #006aff;
+
+}
