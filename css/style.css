@@ -34,6 +34,7 @@ p{
 .secondary_nav{
   display: inline-block;
   text-align: right;
+  margin-left: 40px;
 }
 .main_nav a,
 .secondary_nav a{
@@ -135,8 +136,9 @@ section{
   margin: 30px 0;
 }
 .business-images img{
-  height: 50px;
   max-width: 100%;
+  display: inline-block;
+
 }
 .business-images img:not(:last-child){
   margin-right: 20px;
@@ -156,21 +158,22 @@ section{
 }
 
 /* Resposive */
-@media screen and (max-width: 992px) {
-  .description_hero h1{
-    font-size: 40px;
-  }
-  .business-images img{
-    width: 50%;
-  }
-
-}
 @media screen and (max-width: 768px) {
   .description_hero h1{
     font-size: 30px;
   }
   .business-images img{
-    width: 50%;
+    width: calc(50% - 24px);    
+    margin: 10px auto;
   }
+}
 
+@media screen and (max-width: 992px) {
+  .description_hero h1{
+    font-size: 40px;
+  }
+  .business-images{
+    width: calc(50% - 24px);
+    margin: 30px auto;
+  }
 }
