@@ -1,3 +1,4 @@
+/* Mix */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -36,6 +37,10 @@ p{
 .main_nav a,
 .secondary_nav a{
   font-size: 14px;
+}
+.main_nav li a i,
+.secondary_nav li a i{
+  vertical-align: middle;
 }
 .btn_signup{
   border: 1px solid #006aff;
@@ -114,4 +119,52 @@ p{
 p .terms{
   font-size: 16px;
   text-decoration: underline;
+}
+/* /header */
+/* main */
+section{
+  padding: 30px 0;
+}
+.section_title{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #5b6987;
+}
+.business-images{
+  text-align: center;
+  margin: 30px 0;
+}
+.business-images img:not(:last-child){
+  margin-right: 20px;
+}
+.stories{
+  font-size: 18px;
+  color: #0069ff;
+}
+.stories i{
+  color: #0069ff;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.stories:hover{
+  text-decoration: none;
+  color: #0069ff;
+}
+
+
+
+@@media screen and (max-width: 992px) {
+  .business-img img{
+    width: 50%;
+    text-align: center;
+  }
+}
+
+
+
+@@media screen and (max-width: 768px) {
+  .business-img img{
+    width: 50%;
+    text-align: center;
+  }
 }
