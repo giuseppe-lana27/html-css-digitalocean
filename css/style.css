@@ -14,6 +14,9 @@ ul li a:hover{
   text-decoration: none;
   color: #006aff;
 }
+p{
+  margin: 0;
+}
 /* header */
 .header_top{
   height: 70px;
@@ -24,7 +27,7 @@ ul li a:hover{
 }
 .main_nav{
   display: inline-block;
-  text-align: center;  
+  text-align: center;
 }
 .secondary_nav{
   display: inline-block;
@@ -40,5 +43,70 @@ ul li a:hover{
 }
 .btn_signup:hover{
   color: #006aff;
+}
 
+.header_bottom{
+  height: 800px;
+  background-image: url('../img/bg-hero.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.description_hero{
+  padding: 10px;
+  margin-top: 50px;
+  color: #fff;
+}
+.description_hero h1{
+  font-size: 55px;
+}
+.description_hero p{
+  font-size: 20px;
+}
+.get_started{
+  background-color: #fff;
+  margin-top: 60px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.get_started h2{
+  margin-bottom: 20px;
+}
+.get_started a{
+  font-size: 25px;
+}
+.form-group input{
+  border: none;
+  margin: 25px 0;
+}
+.btn_started{
+  display: block;
+  margin: auto;
+}
+.btn_colored{
+  background-color: #006aff;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.btn_colored:hover{
+  color: #fff;
+}
+.btn_google{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  background-image: url('../img/google-icon.png');
+  background-color: rgba(255, 255, 255, 0.6);
+  background-size: 30px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.get_started p{
+  margin-top: 20px;
+}
+p .terms{
+  font-size: 16px;
+  text-decoration: underline;
 }
