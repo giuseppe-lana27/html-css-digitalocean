@@ -136,8 +136,8 @@ section{
   margin: 30px 0;
 }
 .business-images img{
-  max-width: 100%;
   display: inline-block;
+  max-height: 70px;
 
 }
 .business-images img:not(:last-child){
@@ -163,7 +163,7 @@ section{
     font-size: 30px;
   }
   .business-images img{
-    width: calc(50% - 24px);    
+    width: calc(50% - 24px);
     margin: 10px auto;
   }
 }
