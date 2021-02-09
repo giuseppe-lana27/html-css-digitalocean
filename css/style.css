@@ -44,6 +44,11 @@ p{
 .btn_signup:hover{
   color: #006aff;
 }
+.btn_mobile{
+  text-align: right;
+  color: #006aff;
+  margin-left: 50%;
+}
 
 .header_bottom{
   height: 800px;
