@@ -335,10 +335,41 @@ p .terms{
   font-size: 13px;
   margin-left: 10%;
 }
-
-
-
-
+/* sezione love digitalocean */
+.love_do_title{
+  color: #031b4e;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.love_do_carousel{
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}
+.love_logo{
+  display: inline-block;
+  margin: 0 9%;
+  padding: 10px;
+}
+.carousel_description{
+  color: #031b4e;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.author_name{
+  font-size: 25px;
+  color: #031b4e;
+}
+.author_job{
+  font-size: 16px;
+  color: #031b4e;
+}
+.rick-story{
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  margin: 20px 0;
+}
 
 /* Resposive */
 @media screen and (max-width: 768px) {
