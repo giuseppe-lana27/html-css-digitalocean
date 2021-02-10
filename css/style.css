@@ -190,6 +190,10 @@ p .terms{
   font-size: 20px;
   color: grey;
 }
+.deploy_list li:hover{
+  border: none;
+  border-left: 1px solid #006aff;
+}
 .deploy_nested{
   margin-top: 40px;
 }
@@ -250,14 +254,32 @@ p .terms{
   background-color: #fff;
 }
 .circle_colored{
-  background-color: #006aff;  
+  background-color: #006aff;
 }
 .circle:hover{
   background-color: #006aff;
 }
-
-
-
+/* sezione features */
+.features-title{
+  color: #031b4e;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.feature-title{
+  font-size: 20px;
+  color: #031b4e;
+}
+.feature-description{
+  height: 50px;
+  margin: 20px 0;
+  color: #5b6987;
+}
+.features-item a{
+  font-size: 18px;
+}
+.features-item i{
+  vertical-align: middle;
+}
 
 
 
@@ -273,6 +295,10 @@ p .terms{
     width: calc(50% - 24px);
     margin: 10px auto;
   }
+  .features-item{
+    margin: 15px 0;
+  }
+
 }
 
 @media screen and (max-width: 992px) {
