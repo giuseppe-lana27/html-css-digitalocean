@@ -18,6 +18,12 @@ ul li a:hover{
 p{
   margin: 0;
 }
+section{
+  padding: 40px 0;
+}
+.bg_grey{
+  background-color: #f3f5f9;
+}
 /* header */
 /* header top */
 .header_top{
@@ -117,15 +123,16 @@ p{
 .get_started p{
   margin-top: 20px;
 }
+.get_started a:hover{
+  text-decoration: none;
+}
 p .terms{
   font-size: 14px;
   text-decoration: underline;
 }
 /* /header */
 /* main */
-section{
-  padding: 40px 0;
-}
+
 /* sezione business */
 .section_title{
   text-transform: uppercase;
@@ -138,7 +145,6 @@ section{
 }
 .business-images img{
   display: inline-block;
-  max-height: 70px;
 }
 .business-images img:not(:last-child){
   margin-right: 20px;
@@ -191,8 +197,68 @@ section{
   color: #031b4e;
 }
 .deploy_nested p{
+  font-size: 18px;
   color: #5b6987;
 }
+/* sezione designed */
+.designed_title{
+  color: #031b4e;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.designed_par{
+  font-size: 20px;
+  color: #5b6987;
+  text-align: center;
+}
+.designed_carousel{
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}
+.arrow-left{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+.designed_carousel img{
+  width: 80%;
+  margin: 0 9%;
+}
+.arrow-right{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+.carousel_side_title{
+  color: #031b4e;
+  margin: 15px 0;
+}
+.circle{
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 2px solid #006aff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.circle a{
+  padding: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
 /* Resposive */
 @media screen and (max-width: 768px) {
   .description_hero h1{
