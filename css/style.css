@@ -238,18 +238,23 @@ p .terms{
   color: #031b4e;
   margin: 15px 0;
 }
+.bullet-list li{
+  padding: 0;
+}
 .circle{
-  height: 25px;
-  width: 25px;
-  padding: 10px;
+  height: 20px;
+  width: 20px;
   border: 2px solid #006aff;
   border-radius: 100%;
+  display: inline-block;
   background-color: #fff;
 }
-.circle a{
-  padding: 10px; 
+.circle_colored{
+  background-color: #006aff;  
 }
-
+.circle:hover{
+  background-color: #006aff;
+}
 
 
 
