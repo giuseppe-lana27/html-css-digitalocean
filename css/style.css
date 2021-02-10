@@ -5,6 +5,9 @@ body{
 img{
   max-width: 100%;
 }
+ul{
+  list-style: none;
+}
 ul li{
   margin-right: 10px;
 }
@@ -226,6 +229,7 @@ p .terms{
   top: 50%;
   transform: translateY(-50%);
   font-size: 40px;
+  color: grey;
 }
 .designed_carousel img{
   width: 80%;
@@ -241,6 +245,7 @@ p .terms{
 .carousel_side_title{
   color: #031b4e;
   margin: 15px 0;
+  font-size: 25px;
 }
 .bullet-list li{
   padding: 0;
@@ -276,11 +281,59 @@ p .terms{
 }
 .features-item a{
   font-size: 18px;
+  color: #006aff;
+  vertical-align: middle;
+  display: inline-block;
 }
 .features-item i{
+  display: inline-block;
   vertical-align: middle;
+  font-size: 20px;
+  margin-left: 5px;
 }
-
+.features-item a:hover{
+  text-decoration: none;
+  color: #006aff;
+}
+/* sezione around-world */
+.world-data-centers{
+  background-color: #031b4e;
+  background-image: url('../img/bg-map.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.data-centers-title{
+  color: #fff;
+  padding: 30px;
+}
+.cities-list{
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.cities-list li{
+  padding: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+.city-acro{
+  width: 25%;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.city-name{
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  opacity: 0.6;
+  font-size: 18px;
+}
+.speed{
+  width: 25%;
+  font-size: 17px;
+  margin-left: 35px;
+}
 
 
 
