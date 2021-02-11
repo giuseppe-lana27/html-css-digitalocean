@@ -326,15 +326,18 @@ p .terms{
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .city-acro{
+  width: 10%;
   font-size: 13px;
   display: inline-block;
 }
 .city-name{
+  width: 50%;
   display: inline-block;
   opacity: 0.6;
   font-size: 13px;
 }
 .speed{
+  width: 30%;
   font-size: 13px;
   text-align: right;
   display: inline-block;
@@ -428,8 +431,8 @@ p .terms{
   opacity: 0.5;
 }
 .social-list li a:hover{
+  opacity: 1;
   color: #fff;
-  opacity: 0.5;
 }
 .list-title{
   color: #fff;
@@ -466,7 +469,7 @@ p .terms{
     margin: 15px 0;
   }
   .cities-list{
-    margin-top: 0;
+    margin: 0;
   }
   .list-title{
     margin-top: 20px;
@@ -485,7 +488,7 @@ p .terms{
     margin: 30px auto;
   }
   .cities-list{
-    margin-top: 0;
+    margin 0;
   }
   .list-title{
     margin-top: 10px;
