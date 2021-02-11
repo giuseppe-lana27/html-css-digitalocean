@@ -64,8 +64,8 @@ section{
   color: #006aff;
 }
 .btn_signup:hover{
-  background-color: #006aff;
   color: #fff;
+  background-color: #006aff;
 }
 .btn_mobile{
   text-align: right;
@@ -120,6 +120,7 @@ section{
 }
 .btn_colored:hover{
   color: #fff;
+  background-color: #1633ff;
 }
 .btn_google{
   width: 100%;
@@ -327,19 +328,19 @@ p .terms{
 }
 .city-acro{
   float: left;
-  font-size: 13px;
+  font-size: 15px;
   display: inline-block;
 }
 .city-name{
   float: left;
   display: inline-block;
   opacity: 0.6;
-  font-size: 13px;
+  font-size: 15px;
   margin-left: 20px;
 }
 .speed{
   float: right;
-  font-size: 13px;
+  font-size: 15px;
   text-align: right;
   display: inline-block;
 }
@@ -471,7 +472,7 @@ p .terms{
 }
 .message{
   display: inline-block;
-  width: 60%;
+  max-width: 60%;
   background-color: #fff;
   vertical-align: middle;
   padding: 10px;
@@ -498,6 +499,9 @@ p .terms{
   vertical-align: middle;
   border-radius: 10px;
 }
+.square img{
+  padding: 2px
+}
 .notification{
   display: inline-block;
   background-color: red;
@@ -520,6 +524,7 @@ p .terms{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 /* Resposive */
 @media screen and (max-width: 768px) {
   .description_hero h1{
@@ -534,6 +539,11 @@ p .terms{
   }
   .cities-list{
     margin: 0;
+  }
+  .city-acro,
+  .city-name,
+  .speed{
+    font-size: 13px;
   }
   .list-title{
     margin-top: 20px;
@@ -552,6 +562,11 @@ p .terms{
   }
   .cities-list{
     margin: 0;
+  }
+  .city-acro,
+  .city-name,
+  .speed{
+    font-size: 14px;
   }
   .list-title{
     margin-top: 10px;
