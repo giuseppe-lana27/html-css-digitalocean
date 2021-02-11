@@ -326,19 +326,15 @@ p .terms{
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .city-acro{
-  width: 15%;
   font-size: 13px;
   display: inline-block;
 }
 .city-name{
-  width: 60%;
   display: inline-block;
-  text-align: left;
   opacity: 0.6;
   font-size: 13px;
 }
 .speed{
-  width: 15%;
   font-size: 13px;
   text-align: right;
   display: inline-block;
@@ -410,6 +406,7 @@ p .terms{
   padding: 30px;
 }
 .copyright{
+  font-size: 17px;
   margin: 15px 0;
   color: #fff;
   opacity: 0.5;
@@ -426,7 +423,7 @@ p .terms{
   display: inline-block;
 }
 .social-list li a{
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   opacity: 0.5;
 }
@@ -439,9 +436,13 @@ p .terms{
 }
 .footer_links{
   padding: 0;
+  margin-top: 20px;
 }
 .footer_links li{
-  margin-bottom: 5px;
+  margin-right: 0;
+}
+.footer_links li:not(:last-child){
+  margin-bottom: 10px;
 }
 .footer_links li a{
   font-size: 18px;
@@ -449,8 +450,8 @@ p .terms{
   opacity: 0.5;
 }
 .footer_links li a:hover{
+  opacity: 1;
   color: #fff;
-  opacity: 0.5;
 }
 /* Resposive */
 @media screen and (max-width: 768px) {
