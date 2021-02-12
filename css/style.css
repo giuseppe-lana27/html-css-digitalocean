@@ -27,6 +27,14 @@ section{
 .bg_grey{
   background-color: #f3f5f9;
 }
+input:focus,
+a:focus{
+  outline: none;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
 /* header */
 /* header top */
 .header_top{
@@ -479,6 +487,8 @@ p .terms{
   border-radius: 5px;
   font-size: 17px;
   color: #031b4e;
+  filter: drop-shadow(0 0 1px black);
+  visibility: hidden;
 }
 .triangle{
   width: 0;
@@ -488,7 +498,15 @@ p .terms{
   border-left: 8px solid #f3f5f9;
   display: inline-block;
   vertical-align: middle;
-  margin-left: -4px;
+  margin-left: -3px;
+  filter: drop-shadow(0 0 1px black);
+  visibility: hidden;
+}
+.sammy_shark:hover .message{
+  visibility: visible;
+}
+.sammy_shark:hover .triangle{
+  visibility: visible;
 }
 .square{
   width: 50px;
